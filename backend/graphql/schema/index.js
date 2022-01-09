@@ -1,4 +1,4 @@
-const { buildSchema } = graphql
+const { buildSchema } = require('graphql')
 
 const schema = buildSchema(`
  type TodoItem{
