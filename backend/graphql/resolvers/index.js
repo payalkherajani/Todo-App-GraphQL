@@ -25,3 +25,13 @@ const addTodoItem = async (args) => {
 }
 
 module.exports = { todos, addTodoItem }
+
+
+//Example
+// mutation {
+//     addTodoItem(todoDetails: {text: "HomeWork", isCompleted: false}) {
+//       _id
+//       text
+//       isCompleted
+//     }
+//   }
